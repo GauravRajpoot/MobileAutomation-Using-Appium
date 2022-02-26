@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="187243" started-at="2019-06-17T20:57:45Z" finished-at="2019-06-17T21:00:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="187243" started-at="2019-06-17T20:57:45Z" finished-at="2019-06-17T21:00:53Z">
+      <class name="practise.AppiumFramework.Ecommerce_tc_4">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:practise.AppiumFramework.Ecommerce_tc_4@1f28c152]" name="killAllNodes" is-config="true" duration-ms="3038" started-at="2019-06-17T20:57:45Z" finished-at="2019-06-17T20:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:practise.AppiumFramework.Ecommerce_tc_4@1f28c152]" name="totalValidation" duration-ms="95009" started-at="2019-06-17T20:57:49Z" finished-at="2019-06-17T20:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- practise.AppiumFramework.Ecommerce_tc_4 -->
+      <class name="practise.AppiumFramework.ApiDemoTest">
+        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:practise.AppiumFramework.ApiDemoTest@7d907bac]" name="apiDemoTest" duration-ms="42192" started-at="2019-06-17T20:59:24Z" data-provider="InputData" finished-at="2019-06-17T21:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemoTest -->
+        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:practise.AppiumFramework.ApiDemoTest@7d907bac]" name="apiDemoTest" duration-ms="46820" started-at="2019-06-17T21:00:06Z" data-provider="InputData" finished-at="2019-06-17T21:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemoTest -->
+      </class> <!-- practise.AppiumFramework.ApiDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
